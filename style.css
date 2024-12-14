@@ -1,0 +1,104 @@
+:root {
+  --font-default: 'Poppins', sans-serif;
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Poppins', sans-serif;
+  --font-un-name: 'Noto Serif Bengali', serif;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.People-items {
+  font-family: 'Poppins', sans-serif;
+  padding: 20px 15px;
+  background-color: #e2ffe7;
+}
+.People-title {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding-bottom: 13px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #002147;
+}
+.People-items ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.People-items ul li {
+  font-size: 15px;
+  font-weight: 500;
+  border-bottom: 1px solid #002147;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+.People-items ul li:last-child {
+  border-bottom: none;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.People-items ul li a {
+  text-decoration: none;
+  color: #002147;
+}
+.People-items ul li a:hover {
+  color: #1bbd36;
+}
+.Faculty-main-card {
+  padding-bottom: 13px;
+  margin-bottom: 30px;
+  border-bottom: 1px dotted gray;
+}
+.Faculty-main-card:last-child {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.faculty-title {
+  text-transform: capitalize;
+  font-size: 27px;
+  font-family: 600;
+  margin-bottom: 25px;
+}
+.faculty-name {
+  color: #002147;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.Professor {
+  font-size: 14px;
+  color: gray;
+}
+.Department {
+  color: #1bbd36;
+  margin-bottom: 3px;
+  font-size: 15px;
+  font-family: 500;
+}
+.Interests-main {
+  margin-bottom: 3px;
+}
+.Interests {
+  margin-bottom: 3px;
+  font-size: 15px;
+  font-family: 500;
+}
+.Interests-content {
+  font-size: 14px;
+}
+.faculty-contact p {
+  font-size: 15px;
+  font-family: 500;
+  margin-bottom: 3px;
+}
+.Faculty-tabs {
+  margin-bottom: 25px;
+}
+.Faculty-tabs .nav-tabs .nav-link {
+  color: #002147;
+}
+.Faculty-tabs .nav-tabs .nav-link.active {
+  background-color: #1bbd36;
+  color: #fff;
+}
